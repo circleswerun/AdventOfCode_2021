@@ -26,7 +26,7 @@ int main(){
 
     while (infile >> number) {
         if(!infile.is_open() == 0) {
-            std::cerr("File is not open");
+            std::cerr << "File is not open";
         }
         sum_current = sum_prev - first + number;
         std:: cout << "previous: " << sum_prev << " next: " << sum_current << std::endl;
