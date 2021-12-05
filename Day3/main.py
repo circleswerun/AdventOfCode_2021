@@ -1,3 +1,4 @@
+#complete
 data = open("D:\\AdventOfCode_2021\\Day3\\data.txt").read().splitlines()
 
 gamma = ''
